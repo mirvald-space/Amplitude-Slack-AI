@@ -1,0 +1,6 @@
+python-dotenv
+openai
+slack-bolt
+slack-sdk
+tenacity
+requests

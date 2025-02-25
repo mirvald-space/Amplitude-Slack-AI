@@ -1,0 +1,10 @@
+2025-02-25 02:50:04,112 - INFO - A new session has been established (session id: edcb624a-1b1b-4c81-a180-ced54d575972)
+2025-02-25 02:50:04,113 - INFO - ⚡️ Bolt app is running!
+2025-02-25 02:50:04,114 - INFO - Starting to receive messages from a new connection (session id: edcb624a-1b1b-4c81-a180-ced54d575972)
+2025-02-25 02:50:18,664 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-25 02:50:18,673 - ERROR - OpenAI Error: Error code: 404 - {'error': {'message': 'The model `gmt-4o` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-25 02:50:21,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-25 02:50:21,063 - ERROR - OpenAI Error: Error code: 404 - {'error': {'message': 'The model `gmt-4o` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-25 02:50:23,366 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-25 02:50:23,368 - ERROR - OpenAI Error: Error code: 404 - {'error': {'message': 'The model `gmt-4o` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-25 02:50:23,368 - ERROR - General Error: RetryError[<Future at 0x107b60050 state=finished raised NotFoundError>]
